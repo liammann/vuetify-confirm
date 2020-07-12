@@ -20,6 +20,7 @@ export interface VuetifyConfirmObject {
   icon?: string
   title?: string
   width? : number
+  persistent? : boolean
 }
 declare module 'vue/types/vue' {
   interface Vue {
